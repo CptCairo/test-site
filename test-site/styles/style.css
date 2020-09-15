@@ -1,0 +1,109 @@
+html {
+	font-size: 10px; 
+	font-family: "Open Sans", sans-serif;
+	background-color: #cfe4f5; 
+}
+
+h1 {
+	margin: 0;
+	padding: 20px 0;
+	font-size: 60px;
+	text-align: center;
+	color: blue;
+	text-shadow: 3px 3px 1px black;
+
+}
+
+h2 {
+	font-size: 40px;
+	color: #4eafc2
+}
+
+h3 {
+	font-size: 30px;
+	color: #2a78b4
+}
+
+h4 {
+	font-size: 20px;
+	color: #4dafe7
+}
+
+p, li, dd{
+	color: #2c7ab1;
+	font-size: 16px;
+	line-height: 2;
+	
+}
+
+dt {
+	color: #2c7ab1;
+	font-size: 20px;
+	line-height: 2;
+	font-weight: bold;
+}
+blockquote {
+	color: #2c7ab1;
+	font-size: 20px;
+	line-height: 2;
+	font-weight: bold;
+	background-color: #beaeb8;
+
+}
+nav {
+	color: #2c7ab1;
+	font-size: 16px;
+	line-height: 2;
+	width: auto;
+	margin: 0 auto;
+	background-color: #beaeb8;
+	padding: 20px 20px 20px 20px;
+	border: 1px solid black;
+	text-align: left;
+	align-content: center;
+}
+
+.search-bar {
+	width: auto;
+}
+}
+body {
+	display: grid;
+	width: auto;
+	margin: 0 auto;
+	background-color: #f7f6f4;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+}
+
+
+.logo-image {
+	display: block;
+	margin:  0 auto;
+
+}
+
+.shopping-image {
+	display: left;
+	margin: 0 auto;
+	width: : 250px;
+	height: 250px;
+	
+}
+
+.bottom-page {
+	background-color: grey;
+	border: 1px solid black;
+}
+
+.shopping-cart {
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+@media (max-width: 480px) 
